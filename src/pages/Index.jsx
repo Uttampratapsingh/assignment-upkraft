@@ -16,31 +16,28 @@ const Index = () => {
       <div className="flex-1 flex flex-col min-w-0">
         <Header />
         
-        <main className="flex-1 p-6 overflow-hidden">
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 h-full">
+        <main className="flex-1 p-6 overflow-hidden bg-gray-100">
+          <div className="flex flex-col gap-2 h-full">
             {/* Top Section */}
-            <div className="lg:col-span-12 grid grid-cols-1 lg:grid-cols-12 gap-6 mb-6 flex-shrink-0">
+            <div className="flex gap-2">
               {/* Profile Card */}
-              <div className="lg:col-span-3">
-                <ProfileCard />
-              </div>
               
-              {/* Stats Cards - Two rows of 3 */}
-              <div className="lg:col-span-6 grid grid-cols-1 sm:grid-cols-3 gap-4">
-                <div className="grid grid-cols-1 sm:grid-cols-3 col-span-3 gap-4">
+                <ProfileCard />
+
+              <div className="flex flex-col space-y-3 ml-2">
                   <StatsCard title="Total Active Students" value={30} />
                   <StatsCard title="Tutor CSAT Score" value={80} suffix="%" />
+                  <StatsCard title="Assignment Completion Rate" value={15} suffix="%" />
+              </div>
+
+              <div className="flex flex-col space-y-3 ml-2">
                   <StatsCard title="Total Active Students" value={30} />
-                </div>
-                <div className="grid grid-cols-1 sm:grid-cols-3 col-span-3 gap-4">
                   <StatsCard title="Tutor CSAT Score" value={80} suffix="%" />
                   <StatsCard title="Assignment Completion Rate" value={15} suffix="%" />
-                  <StatsCard title="Assignment Completion Rate" value={15} suffix="%" />
-                </div>
               </div>
               
               {/* Refer and Earn - Moved up */}
-              <div className="lg:col-span-3">
+              <div className="">
                 <ReferCard />
               </div>
             </div>
