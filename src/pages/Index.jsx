@@ -10,7 +10,7 @@ import OverallStudentPerformance  from "@/components/OverallStudentPerformance";
 
 const Index = () => {
   return (
-    <div className="h-screen bg-background flex overflow-hidden">
+    <div className="h-screen bg-gray-100 flex overflow-hidden">
       <Sidebar />
       
       <div className="flex-1 flex flex-col min-w-0">
@@ -21,7 +21,6 @@ const Index = () => {
             {/* Top Section */}
             <div className="flex gap-2">
               {/* Profile Card */}
-              
                 <ProfileCard />
 
               <div className="flex flex-col space-y-3 ml-2">
@@ -37,30 +36,24 @@ const Index = () => {
               </div>
               
               {/* Refer and Earn - Moved up */}
-              <div className="">
+              <div className="w-[25%]">
                 <ReferCard />
               </div>
             </div>
             
             {/* Bottom Section - Main Content */}
-            <div className="lg:col-span-12 grid grid-cols-1 lg:grid-cols-12 gap-6 flex-1 min-h-0">
+            <div className="flex ">
               {/* Upcoming Lessons */}
-              <div className="lg:col-span-6 flex flex-col min-h-0">
                 <UpcomingLessons />
-              </div>
               
               {/* Performance Charts Column */}
-              <div className="lg:col-span-3 flex flex-col space-y-6 overflow-y-auto max-h-full">
-                <div className="flex-shrink-0">
+              <div className="flex flex-col">
                   <PerformanceChart />
-                </div>
-                <div className="flex-shrink-0">
                   <OverallStudentPerformance />
-                </div>
               </div>
               
               {/* Feedback Column */}
-              <div className="lg:col-span-3 flex flex-col">
+              <div className="">
                 <FeedbackCard />
               </div>
             </div>

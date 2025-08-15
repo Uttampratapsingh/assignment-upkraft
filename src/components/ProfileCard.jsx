@@ -5,7 +5,7 @@ const ProfileCard = () => {
     <div className="p-6 w-[360px] bg-white rounded-lg shadow-md border-3 border-blue-500">
       <h4 className="text-sm font-semibold text-gray-800 mb-4">Profile</h4>
 
-      <div className="flex items-center gap-1">
+      <div className="flex items-center gap-1 mt-9">
         {/* Avatar */}
         <div className="relative w-[40%]">
           {/* Circular progress ring */}
@@ -45,8 +45,8 @@ const ProfileCard = () => {
           <div className="absolute bottom-[50px] right-[50px] w-5 h-5 bg-black rounded-full flex items-center justify-center border-2 border-white z-20">
             <span className="text-white text-xs">★</span>
           </div>
-          <h3 className="text-sm font-semibold text-gray-900 ml-1">Sherry Wolf</h3>
-          <p className="text-gray-500 text-[12px] mb-3 ml-2">Piano Tutor</p>
+          <h3 className="text-md font-semibold text-gray-900 ml-1">Sherry Wolf</h3>
+          <p className="text-gray-500 text-[12px] mb-3 ml-4">Piano Tutor</p>
         </div>
 
 
