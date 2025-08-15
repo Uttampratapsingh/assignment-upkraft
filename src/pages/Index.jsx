@@ -1,12 +1,12 @@
-import { Sidebar } from "@/components/Sidebar";
-import { Header } from "@/components/Header";
-import { ProfileCard } from "@/components/ProfileCard";
-import { StatsCard } from "@/components/StatsCard";
-import { ReferCard } from "@/components/ReferCard";
-import { UpcomingLessons } from "@/components/UpcomingLessons";
-import { PerformanceChart } from "@/components/PerformanceChart";
-import { FeedbackCard } from "@/components/FeedbackCard";
-import { OverallStudentPerformance } from "@/components/OverallStudentPerformance";
+import  Sidebar  from "@/components/Sidebar";
+import  Header  from "@/components/Header";
+import ProfileCard from "@/components/ProfileCard";
+import StatsCard from "@/components/StatsCard";
+import ReferCard from "@/components/ReferCard";
+import UpcomingLessons  from "@/components/UpcomingLessons";
+import PerformanceChart  from "@/components/PerformanceChart";
+import FeedbackCard  from "@/components/FeedbackCard";
+import OverallStudentPerformance  from "@/components/OverallStudentPerformance";
 
 const Index = () => {
   return (

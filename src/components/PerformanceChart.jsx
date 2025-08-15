@@ -1,7 +1,9 @@
 import React from 'react'
 
-export const PerformanceChart = () => {
+const PerformanceChart = () => {
   return (
     <div>PerformanceChart</div>
   )
 }
+
+export default PerformanceChart
