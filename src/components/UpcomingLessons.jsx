@@ -21,7 +21,7 @@ const lessons = [
 
 const UpcomingLessons = () => {
   return (
-    <div className="p-5 flex flex-col bg-white rounded-lg shadow-md backdrop-blur-lg w-[52%] h-[500px]">
+    <div className="p-5 flex flex-col bg-white rounded-lg shadow-md backdrop-blur-lg w-[52%] h-[410px]">
       {/* Header */}
       <div className="flex justify-between items-center mb-6 flex-shrink-0">
         <h3 className="text-lg font-semibold text-gray-900">Upcoming Lessons</h3>

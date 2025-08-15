@@ -6,7 +6,6 @@ import ReferCard from "@/components/ReferCard";
 import UpcomingLessons  from "@/components/UpcomingLessons";
 import PerformanceChart  from "@/components/PerformanceChart";
 import FeedbackCard  from "@/components/FeedbackCard";
-import OverallStudentPerformance  from "@/components/OverallStudentPerformance";
 
 const Index = () => {
   return (
@@ -42,15 +41,12 @@ const Index = () => {
             </div>
             
             {/* Bottom Section - Main Content */}
-            <div className="flex ">
+            <div className="flex gap-4">
               {/* Upcoming Lessons */}
                 <UpcomingLessons />
               
               {/* Performance Charts Column */}
-              <div className="flex flex-col">
-                  <PerformanceChart />
-                  <OverallStudentPerformance />
-              </div>
+                <PerformanceChart />
               
               {/* Feedback Column */}
               <div className="">

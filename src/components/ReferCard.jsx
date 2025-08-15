@@ -6,7 +6,7 @@ const ReferCard = () => {
         <img 
           src="/avatar.jpg" 
           alt="Refer and Earn" 
-          className="h-[182px] object-cover"
+          className="h-[178px] object-cover"
         />
       </div>
 
