@@ -1,3 +1,5 @@
+Live Preview Link : https://assignment-upkraft.vercel.app
+
 # UpKraft - Tutor Dashboard
 
 A modern, responsive tutor dashboard application built with React and Vite. This dashboard provides tutors with comprehensive tools to manage their students, track performance, view upcoming lessons, and monitor their teaching effectiveness.
@@ -90,7 +92,7 @@ up-Kraft/
 
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/Uttampratapsingh/assignment-upkraft
    cd up-Kraft
    ```
 
