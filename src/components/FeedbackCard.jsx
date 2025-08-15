@@ -66,6 +66,7 @@ const FeedbackCard = () => {
         <div className="flex justify-center mb-4">
           <CircularProgress value={1.2} color="hsl(0 84% 60%)" />
         </div>
+        <button className="bg-[#6a44c8] text-white font-medium px-4 py-2 rounded-md transition mt-10">Give Feedback →</button>
       </div>
     </div>
   );
