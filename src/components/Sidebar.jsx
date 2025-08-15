@@ -30,7 +30,7 @@ const sidebarItems = [
 
 const Sidebar = () => {
   return (
-    <div className="w-48 h-screen bg-[#6a44c8] text-white flex flex-col font-sans">
+    <div className="w-48 h-screen bg-gradient-to-t from-violet-800 to-blue-700 text-white flex flex-col font-sans">
       
       {/* Logo */}
       <div className="mb-6 flex justify-center">

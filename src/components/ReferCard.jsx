@@ -11,7 +11,7 @@ const ReferCard = () => {
       </div>
 
       {/* Purple card section */}
-      <div className="bg-[#6a44c8] text-center rounded-2xl text-white pt-2">
+      <div className="bg-gradient-to-t from-violet-800 to-blue-700 text-center rounded-2xl text-white pt-2">
         <h3 className="text-xl font-bold mb-1">Refer and Earn</h3>
         <p className="text-white/90 text-sm mb-2">
           Invite friends and earn exclusive rewards <br /> for every successful referral!

@@ -23,14 +23,14 @@ const Header = () => {
       {/* Right side icons and profile */}
       <div className="flex items-center space-x-4">
 
-       <div className="rounded-full bg-[#6a44c8] p-2 flex items-center justify-center">
+       <div className="rounded-full bg-gradient-to-t from-violet-800 to-blue-700 p-2 flex items-center justify-center">
           <Send className="h-4 w-4 text-white cursor-pointer" />
         </div>
 
         <div className="relative">
           <Bell className="h-6 w-6 text-gray-500 hover:text-gray-800 cursor-pointer transition-colors" />
           {/* Notification Dot */}
-          <div className="absolute -top-1 -right-1 w-3 h-3 bg-[#6a44c8] rounded-full border-2 border-white"></div>
+          <div className="absolute -top-1 -right-1 w-3 h-3 bg-gradient-to-t from-violet-800 to-blue-700 rounded-full border-2 border-white"></div>
         </div>
         
         <div className="w-[30px] border border-black/20 rotate-90 -mx-4"></div>
